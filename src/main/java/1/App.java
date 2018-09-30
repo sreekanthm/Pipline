@@ -11,6 +11,11 @@ public class App {
     public static void main(String[] args) {
         SpringApplication.run(App.class, args);
     }
+   
+    public class Test{
+     
+     
+    }
 
     @RequestMapping(value = "/")
     String hello() {
