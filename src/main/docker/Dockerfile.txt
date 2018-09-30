@@ -1,0 +1,6 @@
+FROM dockerfile/java:oracle-java8
+
+ADD Pipline.jar /opt/Pipline/
+EXPOSE 8080
+WORKDIR /opt/Pipline/
+CMD ["java", "-Xms512m", "-Xmx1g", "-jar", "Pipline.jar"]
