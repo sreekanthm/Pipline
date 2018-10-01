@@ -105,4 +105,16 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+    <repository>
+      <id>deployment</id>
+      <name>Internal Release1</name>
+      <url>http://localhost:8081/nexus/content/repositories/mph/</url>
+    </repository>
+    <snapshotRepository>
+      <id>deployment</id>
+      <name>Internal Release</name>
+      <url>http://localhost:8081/nexus/content/repositories/mphsnapshot/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
