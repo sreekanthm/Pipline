@@ -12,11 +12,6 @@ public class App {
         SpringApplication.run(App.class, args);
     }
    
-    public class Test{
-     
-     echo "hahahah";
-     
-    }
 
     @RequestMapping(value = "/")
     String hello() {
